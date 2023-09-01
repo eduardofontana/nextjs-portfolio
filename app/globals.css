@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: monospace;
+}
+
+.mailme {
+  font-family: monospace;
+}
+
+.texto {
+  font-size: 18px;
+}
+
+.skill {
+  font-size: 28px;
+}
+
+.header {
+  font-family: monospace;
+  font-size: 24px;
+}
+
+.main {
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.github {
+  position: relative;
+  overflow: hidden;
+}
+
+.github:hover {
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.linkedin {
+  position: relative;
+  overflow: hidden;
+}
+
+.linkedin:hover {
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.twitter {
+  position: relative;
+  overflow: hidden;
+}
+
+.twitter:hover {
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+a {
+  position: relative;
+  overflow: hidden;
+}
+
+a:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.profile {
+  position: relative;
+  overflow: hidden;
+}
+
+.profile:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.contact {
+  position: relative;
+  overflow: hidden;
+}
+
+.contact:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.hero {
+  width: auto;
+  height: auto;
+}
